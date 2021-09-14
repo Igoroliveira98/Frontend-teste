@@ -6,8 +6,6 @@ function openEvents(evt, name) {
   tabcontent = document.querySelectorAll(".content__repos");
 
   for (i = 0; i < tabcontent.length; i++) {
-
-    console.log(tabcontent);
     
     tabcontent[i].style.display = "none";
   }
